@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.settings.preferences;
+package com.aicp.gear.preference;
 
 import android.content.Context;
 import android.provider.Settings;
 import android.os.UserHandle;
 import android.util.AttributeSet;
 
-import lineageos.preference.SelfRemovingSwitchPreference;
+import com.aicp.gear.preference.SelfRemovingSwitchPreference;
 
 public class SystemSettingSwitchPreference extends SelfRemovingSwitchPreference {
 
